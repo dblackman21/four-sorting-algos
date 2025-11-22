@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.google.com/specimen/Source+Code+Pro');
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    color: #231161;
+    margin: 20px 0;
+}
+
 body {
     font-family: 'Inter';
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #f9f9f9;
     color: #333;
 }
@@ -20,4 +26,14 @@ footer {
     background-color: 	#231161;
     color: #C99700;
     font-style: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px; 
+    }
+
+    code, pre {
+        font-size: 14px; 
+    }
 }
