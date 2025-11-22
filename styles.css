@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Source+Code+Pro');
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+code, pre {
+    font-family: 'Source Code Pro';
+    background-color: #eaeaea;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: 	#231161;
+    color: #C99700;
+    font-style: bold;
+}
